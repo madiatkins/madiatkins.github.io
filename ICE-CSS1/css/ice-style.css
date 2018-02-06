@@ -1,0 +1,90 @@
+/*The background image in the aside section is an optional challenge.*/
+
+
+
+*{
+	margin: 0;
+}
+
+/*Header and Navigation*/
+
+
+header h1 {
+	background-color: yellow;
+	text-align: right;
+}
+
+nav{
+	background-color: green;
+}
+
+nav li{
+	background-color: black;
+	display: inline-block;
+	padding: 5px 30px;
+
+}
+
+nav a{
+	color:white;
+	text-decoration: none;
+}
+
+
+/*Content*/
+
+body{
+	background-color: gray;
+
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+
+div ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#content{
+	background-color: #666666;
+	overflow-wrap: break-word;
+	padding-right: 150px;
+	/*this moves the text over so the aside can fit nicely inside*/
+
+}
+
+aside{
+	
+	background-color: white;
+	height: 332px;
+	background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 85%;
+	background-size: contain;
+	right:200px;
+	position: absolute;
+	
+}
+
+aside li{
+	text-align: left;
+	list-style-type: disc; 
+}
+
+
+
+footer{
+	background-color: green;
+	height: 30px;
+
+}
+
+footer p{
+	position: absolute;
+	text-align: center;
+}
+
+
