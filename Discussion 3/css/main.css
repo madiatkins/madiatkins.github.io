@@ -1,0 +1,60 @@
+.circle {
+	width: 300px;
+	height: 300px;
+	/*background: #000000;*/
+	border-radius: 50%;
+	/*will always be 50% of the widthxheight*/
+
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -160px;
+	margin-left: -160px;
+
+
+	border: 10px solid #000000;
+	border-top-color: red;
+	
+
+	animation: spinner .7s infinite linear;
+
+
+}
+
+
+.circle--bkg {
+	border: 0;
+	animation: bkg-changer 1s infinite linear;
+	background: #3fc1c9;
+
+	top: 70%;
+
+}
+
+
+
+/*Specify time splits*/
+@keyframes spinner {
+	100% {
+		transform: rotateZ(360deg);
+	/*	rotating on Z-axis = spinner
+		rotating on Y-axis = looks like it's flipping left to right
+		rotating on X-axis = looks like it's flipping top to bottom*/
+
+	}
+
+@keyframes bkg-changer {
+	33% {
+		background: #364;
+
+	}
+	67% {
+		background: #569;
+
+	}
+	100% {
+		background: #000;
+
+	}
+}

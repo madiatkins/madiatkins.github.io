@@ -1,0 +1,92 @@
+
+
+/*prefered way*/
+ul.hashtags {
+	list-style: none;
+	padding: 0;
+
+}
+
+ul.hashtags > li {
+	display: inline; /*dynamic width*/
+	padding: 5px;
+	margin: 5px;
+	/*display: block; default property of all the divs and most major elements, 100% is default width*/
+	background: #444;
+	color: white;
+	border-radius: 3px;
+}
+
+ul.hashtags > li::before {
+	/*adding '#' before the tag*/
+	/*pseudo class example*/
+	content: '#';
+	color: #ddd;
+}
+
+ul.hashtags--inline-block > li {
+	/*if there's no width it will act like an inline*/
+	display: inline-block;
+	/*when you know the width of the element/when you want to fix the width of the element */
+	padding: 5px;
+	margin: 5px;
+	/*display: block; default property of all the divs and most major elements, 100% is default width*/
+	background: blue;
+	color: white;
+	border-radius: 3px;
+	width: 100px;
+	/*will overrun the above display of in-line block*/
+	display: none;
+
+}
+
+ul.hashtags > li:hover {
+	border-bottom: 3px solid red;
+}
+
+
+
+
+
+
+/*notes*/
+
+ul.hashtags li {
+	/*all the children of the parent "hashtags"*/
+
+}
+
+ul.hashtags > li {
+	/*all the direct children -- immediately next to the parent*/
+}
+
+
+
+
+
+
+
+
+
+
+.box{
+	width: 100px;
+	height: 100px;
+	background: #444;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	/*position needs coordinates to work*/
+	/*static overrides coordinates*/
+	/*fixed is a good way to make "return to top" scrolling buttons*/
+}
+
+.container{
+	width: 500px;
+	height: 500px;
+	background: #ddd;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
