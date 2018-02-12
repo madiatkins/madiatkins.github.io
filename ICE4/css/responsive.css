@@ -1,10 +1,10 @@
 @media only screen and (min-width: 650px){
 	.top-nav ul li{
 		display:inline-block;
- 
-
 	}
 
 	.top-nav ul{
 		text-align: center;
 	}
+
+	/*make individual classes for each -- add into photo-cell class (ex. class="photo-cell maroon")*/
