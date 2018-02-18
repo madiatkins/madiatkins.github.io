@@ -37,7 +37,7 @@ header, footer, .logo {
 }
 body{
 	display: flex;
-	flex-direction: column;
+  flex-direction: column;
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Quicksand', sans-serif;
@@ -87,14 +87,15 @@ header{
 	padding: 0;
 	background-color: #211D24; /*CHANGE*/
 	margin: 0;
-	/*display: block;*/
+	display: block;
 }
 .top-nav ul li, .menu-icon{
-	border-top: 1px solid #DDDDDA; /*CHANGE*/
+	border-top: 1px solid #DDDDDA;
 }
+	/*border-top: 1px solid #DDDDDA; CHANGE*/
 .top-nav ul li a{
 	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
+	color: #DDDDDA; /*CHANGE
 	text-decoration: none;
 	padding: .5em 1em;
 	display: block;
@@ -125,8 +126,8 @@ header{
     font-weight: bold;
 }
 .top-nav ul li a:hover:before, .top-nav ul li a:focus:before{
-    content: "\27A4  ";
-  	color: #DDDDDA;
+  	content: "\27A4  ";
+    color: #DDDDDA;
   	padding-right: 4px;
   	position: relative;
   	top: 1px;
