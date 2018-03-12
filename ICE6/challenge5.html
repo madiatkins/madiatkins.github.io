@@ -35,11 +35,16 @@
 		text-align: center;
 	}
 	</style>
-	<!-- never put javascript in the head!!! -->
+
 	<script type="text/javascript">
 		function upDate(i){
-			document.getElementById('image').stylebackgroundImage = "url('"+i.src+"')";
+			document.getElementById('image').style.backgroundImage = "url('"+i.src+"')";
 			document.getElementById('image').innerHTML = i.alt;
+		}
+
+		function unDo(i) {
+			document.getElementById('image').style.backroundImage = "url()";
+			document.getElementById('image').innerHTML = "Hover/Tab over an image below."
 		}
 
 	</script>
@@ -59,18 +64,21 @@
 		<img class = "preview" 
 			alt = "Styling with a Bandana" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
+			onmouseover="upDate(this)" onmouseleave="unDo()"; 
 			>
 
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->	
 		<img class = "preview" 
 			alt = "With My Boy" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";
+			onmouseover="upDate(this)" onmouseleave="unDo()";>
 	
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
 		<img class = "preview" tabindex = "1" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
-			alt = "Young Puppy";>
+			alt = "Young Puppy";
+			onmouseover="upDate(this)" onmouseleave="unDo()";>
 
 
 
