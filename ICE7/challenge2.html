@@ -7,7 +7,19 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-      // YOUR CODE HERE
+      $(document).ready(function(){
+        $("#useBilling").on("click", function(){
+          if (this.checked) {
+            $("#home").val($("#billing").val());
+            $("#home").prop('disabled', true);
+          }
+          else{
+            $("#home").val("");
+            $("#home").prop('attribute', false);
+          }
+          
+        })
+      })
     </script>
 </head>
 <body>
@@ -28,7 +40,7 @@
         <br>
         <textarea name="homeAdd" id="home"></textarea>
         </div>
-        <input type = "submit" value = "Go To Challenge 3">
+        <input type = "submit" value = "Go To Challenge 5">
       </fieldset>
 </body>
 </html>
