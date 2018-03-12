@@ -25,11 +25,14 @@ When you test your form at the moment, you'll notice that you can click on the c
     <script type="text/javascript">
 	function toggleEmail(){
 		/*    YOUR CODE HERE - check Step 2*/ 
+    
+    var subscribe = document.getElementById("subscribe").checked;
     var emailField = document.getElementById("emailfield");
-    var subscribe = document.getElementById("subscribe");
-    if (subscribe.checked == true) {
+   
+    if (subscribe == true) {
       emailField.style.display = "block";
-    } else {
+    }
+    else {
         emailField.style.display = "none";
     }
 

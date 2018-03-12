@@ -7,7 +7,11 @@
 
     <script>
     $(document).ready(function(){
-      /*    YOUR jQuery CODE HERE */ 
+      /* hide the email field */
+      $('#emailfield').hide();
+      $('#subscribe').click(function(){
+        $('#emailfield').toggle();
+      })
     }); 
     </script>
   </head>
