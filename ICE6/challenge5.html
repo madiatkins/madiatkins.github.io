@@ -37,51 +37,46 @@
 	</style>
 
 	<script type="text/javascript">
-		function upDate(i){
-			document.getElementById('image').style.backgroundImage = "url('"+i.src+"')";
-			document.getElementById('image').innerHTML = i.alt;
-		}
 
-		function unDo(i) {
-			document.getElementById('image').style.backroundImage = "url()";
-			document.getElementById('image').innerHTML = "Hover/Tab over an image below."
-		}
+	function upDate(i){
+		var imageLink = i.getAttribute('src');
+		var altText = i.getAttribute('alt');
 
-	</script>
+		//similar to what we learned in class today, just created a variable for the src link
+		document.getElementById('image').style.backgroundImage = "url('" + imageLink + "')";
+		document.getElementById('image').innerHTML = altText;
+	}
+
 	
+	function unDo() {
+		document.getElementById('image').style.backgroundImage = "url('')";
+  		document.getElementById('image').innerHTML = "Hover over an image below.";
+	}
+	</script>
 </head>
 
 <body>
-
-
-
 	<h1>Challenge 5</h1>
 		<div id = "image">
 			Hover over an image below.
 		</div>
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" 
+		<img class = "preview" tabindex = '1'
 			alt = "Styling with a Bandana" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
-			onmouseover="upDate(this)" onmouseleave="unDo()"; 
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus = "upDate(this)" onblur = "unDo()";
 			>
 
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->	
-		<img class = "preview" 
+		<img class = "preview" tabindex = '2' 
 			alt = "With My Boy" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";
-			onmouseover="upDate(this)" onmouseleave="unDo()";>
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus = "upDate(this)" onblur = "unDo()";>
 	
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" tabindex = "1" 
+		<img class = "preview" tabindex = "3" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
-			alt = "Young Puppy";
-			onmouseover="upDate(this)" onmouseleave="unDo()";>
-
-
-
+			alt = "Young Puppy" onmouseover = "upDate(this)" onmouseleave = "unDo()" onfocus = "upDate(this)" onblur = "unDo()";>
 </body>
 </html>
 	
