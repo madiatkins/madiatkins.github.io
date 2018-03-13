@@ -36,10 +36,19 @@
 	}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
+    
 	<script type="text/javascript">
-	// I used Two functions here.  Starter idea at: 
-	// https://codepen.io/ColleenEMc/pen/XmZzWw
+		$(document).ready(function() {
+			$('.preview').on('mouseover focus', function() {
+				$('#image').text($(this).attr('alt'));
+				$('#image').css('background-image', 'url("'+ $(this).attr('src')+'")');
+
+		$('.preview').on('mouseleave blur', function() {
+			$('#image').text("Hover over an image below");
+			$('#image').css('background-image', '');
+		})
+			})
+		})
 	</script>
 </head>
 
@@ -50,14 +59,13 @@
 		</div>
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" 
+		<img class = "preview" tabindex="1" 
 			alt = "Styling with a Bandana" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
-			>
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";>
 
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->	
-		<img class = "preview" 
+		<img class = "preview" tabindex="1" 
 			alt = "With My Boy" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
 	
