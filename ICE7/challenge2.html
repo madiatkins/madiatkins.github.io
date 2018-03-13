@@ -9,13 +9,15 @@
     <script>
       $(document).ready(function(){
         $("#useBilling").on("click", function(){
+
           if (this.checked) {
             $("#home").val($("#billing").val());
             $("#home").prop('disabled', true);
           }
           else{
             $("#home").val("");
-            $("#home").prop('attribute', false);
+            $("#home").prop('disabled', false);
+
           }
           
         })
