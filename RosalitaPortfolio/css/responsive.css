@@ -1,0 +1,111 @@
+/*Part 1*/
+/*changed code in images.html*/
+
+
+/*Part 2*/
+/*greater than 650px*/
+@media only screen and (min-width: 650px){
+	.top-nav ul li{
+		display:inline-block;
+	}
+
+	.top-nav ul{
+		text-align: center;
+	}
+
+	.top-nav ul li, .menu-icon {
+		border-top: 1px solid red;
+	}
+
+	/*make individual classes for each -- add into photo-cell class (ex. class="photo-cell maroon")*/
+
+	.photo-cell{
+		margin-bottom: 2%;
+		margin-left: 2%;
+	}
+
+	.yellow{
+		display: inline-block;
+		width: 47%;
+
+	}
+
+	.bluepurple{
+		display: inline-block;
+		width: 47%;
+
+	}
+
+/*Part 3*/
+/*Greater than 1000px*/
+
+@media only screen and (min-width: 1000px){
+	.top-nav ul{
+		text-align: right;
+		padding-top: .5em;
+		margin: 0;
+	}
+
+	.top-nav ul li, .menu-icon {
+		border-top: none;
+	}
+
+	.logo img{
+		float: left;
+		padding: 0 0 .3em 0;
+		height: 3em;
+		width: 3em;
+
+	}
+
+	.logo{
+		padding: .25em .4em;
+	}
+
+	.photo-cell{
+		display: inline-block;
+		/*margin-bottom: 2%;*/
+		margin-left: 2%;
+		margin-right: .25%;
+	}
+
+	.black{
+		
+		width: 47%;
+	}
+
+	.maroon{
+		
+		width: 47%;
+
+	}
+
+	.yellow{
+		
+		width: 22%;
+
+	}
+
+	.bluepurple{
+		
+		width: 22%;
+
+	}
+
+	.green{
+		width: 47%;
+		
+	}
+
+	.lightblue{
+		width: 47%;
+	}
+
+	.red{
+		width: 47%;
+	}
+
+}
+
+
+

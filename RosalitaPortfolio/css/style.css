@@ -1,0 +1,23 @@
+/*DO NOT FORGET THAT IT IS 'CASCADING' STYLE SHEET -- PUT THINGS IN ORDER WITH REGARDS TO THAT*/
+
+
+
+
+/*header*/
+
+
+
+
+
+/*navigation*/
+#navigation ul li a {
+	text-decoration: none;
+	color: #0071ce;
+
+
+}
+
+#navigation ul li a.current-page{
+	color: #0009c1;
+	font-weight: bold;
+}
