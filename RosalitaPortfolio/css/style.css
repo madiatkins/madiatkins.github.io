@@ -1,23 +1,145 @@
-/*DO NOT FORGET THAT IT IS 'CASCADING' STYLE SHEET -- PUT THINGS IN ORDER WITH REGARDS TO THAT*/
+/*HEX color harmony of site
+#7F4E53 -- dusty rose
+#FF485A -- bright salmon pink -- not really good color
+#FF9BA5 -- light pastel pink
+#7F3B41 -- dark rose
+#CC7C84 -- dusty light pink
+*/
 
+/*Header/Navigation -- stays the SAME across all pages*/
 
+body{
+	font-family: "Railway", sans-serif;
+	background-color: #FF9BA5;
+}
 
+#header-wrapper {
+	background-color: #7F4E53;
+	color: #DDDDDA;
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: auto;
+	padding: 1.5em;
+	/*max-width: 960px;
+	margin: 0 auto;
+	background-color: #7F4E53;
+	padding: 32px;*/
+}
 
-/*header*/
+header{
+	background-color: #CC7C84;
+	height: 150px;
+	padding: 4px;
+}
 
+header h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #7F3B41;
+	line-height: 50px;
+	font-family: "Railway", sans-serif;
+}
 
-
-
-
-/*navigation*/
-#navigation ul li a {
+header h1 a{
 	text-decoration: none;
-	color: #0071ce;
+}
 
+header h1 a:visited{
+	color: inherit;
+}
+
+header h2{
+	font-variant: small-caps;
+	text-align: center;
+	color: pink;
+	font-family: "Railway", sans-serif;
+}
+
+.main-menu{
+	padding: 5px 0 5px 0;
+	text-align: center;
+	line-height: 32px;
+	background-color: #CC7C84;
+}
+
+ul.main-menu{
+	margin-top: 15px;
 
 }
 
-#navigation ul li a.current-page{
-	color: #0009c1;
-	font-weight: bold;
+.main-menu li {
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 16px;
 }
+
+.main-menu a{
+	text-decoration: none;
+	color: #7F3B41;
+	padding: 8px;
+	font-variant: small-caps;
+	font-family: "Lato" bold;
+}
+
+/*Content -- names needs to be added to this section with each page*/
+
+/*HOMEPAGE*/
+#home-content {
+	background-color: #7F4E53;
+	display: flex;
+	flex-direction: row;
+	max-width: 1200px;
+	margin: auto;
+	padding: 1.5em;
+	align-items: center;
+}
+
+#home-content p{
+	/*display: inline-block;*/
+	/*max-width: 300px;*/
+	padding: 32px;
+	/*font-variant: small-caps;*/
+	text-align: center;
+	color: pink;
+	font-family: "Railway", sans-serif;
+	font-size: 1.5em;
+}
+
+/*ABOUT PAGE*/
+
+
+
+
+/*PROJECTS PAGE*/
+
+
+
+
+/*CONTACT PAGE*/
+
+
+
+
+/*Footer*/
+.footer{
+	background-color: #7F4E53;
+	display: flex;
+	flex-direction: row;
+	max-width: 1200px;
+	margin: auto;
+	padding: 1.5em;
+	align-items: flex-end;
+}
+
+
+.footer p{
+	color: pink;
+	font-size: 1em;
+}
+
+
+
+
+
+

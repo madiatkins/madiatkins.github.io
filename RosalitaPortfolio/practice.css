@@ -1,0 +1,764 @@
+* {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: #F8F8F8;
+}
+
+
+/*HEADER*/
+
+header {
+	height: 12vh;
+	background-color: rgba(105, 105, 105, .85);
+	position: fixed !important;
+	width: 80vw;
+	left: 10vw;
+	top:0;
+	z-index: 15;
+	font-size: 105%;
+}
+
+
+/*NAVIGATION MENU*/
+.title {
+	display: inline-block;
+	width: 10%;
+	height: 59%;
+	margin-top: 1.8em;
+	margin-bottom: 0;
+}
+
+.title a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 2.3em;
+	font-family: Arial, sans-serif; 
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+
+.header-bar ul {
+	list-style-type: none;
+	padding: 0;
+	color: white; 
+	margin: 0;
+	height: 210%;
+}
+
+.header-bar ul li {
+	padding-top: .5em;
+	padding-bottom: 0;
+	background-color: rgba(90, 88, 107, 0.85);
+	font-family: Arial, sans-serif; 
+	margin: 0;
+	display: block;
+	height: 20%;
+	text-align: center;
+}
+
+
+.header-bar ul li a{
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+/*SLIDESHOW*/
+
+/*#slideshow {
+	position: relative;
+	height: 100vw !important;
+	-webkit-height: 100vh;
+	width: 100vw !important;
+	-webkit-width: 100vw;
+	-webkit-overflow-scrolling: touch;
+}
+
+#slideshow div {
+	display: block;
+	display: none;
+	margin: 0 auto;
+	background-color: white;
+	width: 100vw !important;
+	-webkit-width: 100vw;
+	height: 100vh !important;
+	-webkit-height: 100vh;
+}
+
+#slideshow img {
+	z-index: 8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw !important;
+	-webkit-width: 100vw;
+	height: 100vh !important;
+	-webkit-height: 100vh;
+	/*opacity: .94;*/
+	filter: brightness(60%);
+
+}
+
+.name {
+	position: absolute;
+	left: 5vw;
+	top: 40vh;
+	z-index: 10;
+	display: inline-block;
+}
+
+.name h1 {
+	color: white;
+	font-family: Chivo, sans-serif; 
+	font-size: 8vw;
+	letter-spacing: .01em;
+	display: inline-block;
+}
+
+/*PROJECTS PAGE*/
+
+
+.first {
+	width: 80vw;
+	height: 45%;
+	margin-top: 14vh;
+	margin-left: 10vw;
+	display: inline-block;
+}
+
+.oscarsproj {
+	margin-top: 4vh;
+}
+
+
+.second { 
+	width: 80vw;
+	height: 45%;
+	margin-top: 4vh;
+	margin-left: 10vw;
+	display: inline-block;
+}
+
+.zaraproj {
+	margin-top: 4vh;
+	
+}
+
+.projects {
+	overflow: auto;
+	width: 100vw;
+	height: 82vh;
+}
+
+/*ABOUT ME PAGE */
+
+.info {
+	display: inline-block;
+	overflow: auto;
+	width: 100vw;
+	height: 82vh;
+}
+
+.left {
+	margin-top: 14vh;
+	height: 100vh;
+	width: 80vw;
+	margin-left: 10vw;
+}
+
+.right {
+	margin-top: 4vh;
+	height: 82vh;
+	width: 80vw;
+	margin-left: 10vw;
+	display: block;
+	/*margin-bottom: 20%;*/
+}
+
+.right p{
+	height: auto;
+}
+
+.button{
+		height: 10%;
+    	background-color: rgb(60, 50, 73); /* Green */
+    	border: none;
+    	color: white;
+    	padding: 15px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+/*CONTACT PAGE*/
+
+.contact {
+	display: block;
+	width: 100vw;
+	height: 68vh;
+	margin-top: 14vh;
+	text-align: center;
+	/*background-color: rgba(60, 50, 73, 0.2);*/
+	overflow: auto;
+
+}
+
+.basic {
+	display: block;
+	height: auto;
+}
+form {
+	width: 80vw;
+	margin-left: 10vw;
+	display: block;
+	height: 80vh;
+}
+
+form div {
+	display: block;
+	height: auto;
+	text-align: center;
+	background-color: rgba(60, 50, 73, 0.2);
+	padding: 3%;
+	border-radius: 2%;
+	width: 75vw;
+}
+
+.contact p a{
+	color: red;
+}
+.asterisk {
+	color: red;
+	font-size: 130%;
+}
+
+::-webkit-input-placeholder {
+	text-align: center;
+}
+::-moz-placeholder {
+	text-align: center;
+}
+:-ms-placeholder {
+	text-align: center;
+}
+
+.form_submit {
+	height: 10%;
+}
+
+.form_submit input {
+	height: 100%;
+    background-color: rgb(60, 50, 73); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* HBO PAGE */
+
+/*HBO basic info section*/
+.hbo {
+	width: 100vw;
+	height: 70vh;
+	margin-top: 14vh;
+	overflow: auto;
+}
+
+.hbo_info {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 3%;
+	width: 80vw;
+	margin-left: 10vw;
+	height: 20vh;
+	margin-bottom: 2%;
+}
+
+.hbo_info  h1 {
+	height: 10vh;
+	font-size: 450%;
+}
+
+.date {
+	font-size: 200%
+}
+
+.icons {
+	width: 80vw;
+	height: auto;
+	margin-left: 10vw;
+	display: inline-block;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;  
+}
+
+.icons div {
+	display: block;
+}
+
+.font {
+	font-size: 125%;
+	height: 10%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text {
+	width: 100%;
+	height: 60%;
+}
+.project {
+	width: 80vw;
+	height: 60%;
+	text-align: center;
+	margin-bottom: 4vh;
+}
+
+.timeframe {
+	width: 80vw;
+	height: 60%;
+	text-align: center;
+	margin-bottom: 4vh;
+}
+
+.process {
+	width: 80vw;
+	height: 60%;
+	text-align: center;
+	margin-bottom: 4vh;
+}
+
+.hi-icon {
+	font-size: 800%;
+}
+
+h2 {
+	color: rgba(60, 50, 73, .8);
+}
+
+/*HBO Interaction section*/
+.hbo_interaction {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;  
+}
+
+
+/*HBO research section*/
+.hbo_research {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;  
+}
+
+.hbo_research ul {
+	margin-left: 10%;
+}
+
+/*HBO competitors*/
+.hbo_competitors {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+}
+
+.hbo_competitors ul {
+	margin-left: 10%;
+}
+
+.hbo_competitors img {
+	width: 80vw;
+	height: auto;
+}
+
+HBO Go Interviews section
+
+.hbo_interviews {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid; 
+	border-top-color: black;
+	border-top-width: 1px;
+	border-top-style: solid; 
+}
+.hbo_interviews ul {
+	margin-left: 10%;
+}
+
+/*HBO Go personas section*/
+.hbo_personas {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid; 
+}
+
+.hbo_personas p {
+	text-align: left;
+}
+
+/*HBO Go survey section */
+
+.hbo_survey {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid; 
+}
+
+/*HBO Go preference test section */
+.hbo_preference {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid; 
+}
+
+/*HBO Go findings section */
+
+
+.hbo_findings {
+	height: auto;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+}
+
+.hbo_findings ul {
+	margin-left: 10%;
+}
+
+/*Oscars page */
+.oscars {
+	height: 82vh;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	margin-top: 14vh;
+	text-align: center;
+}
+
+.oscars h2 {
+	height: 10vh;
+	font-size: 7vw;
+	margin-top: 40vh;
+}
+
+.oscars p {
+	height: 5vh;
+	font-size: 7vw;
+	margin-top: 10vh;
+}
+
+/*Emoji page*/
+
+.emoji {
+	height: 82vh;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	margin-top: 14vh;
+	text-align: center;
+}
+
+.emoji h2 {
+	height: 10vh;
+	font-size: 8vw;
+	margin-top: 40vh;
+}
+
+.emoji p {
+	height: 5vh;
+	font-size: 8vw;
+	margin-top: 10vh;
+}
+
+/*Zara page */
+.zara {
+	height: 82vh;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+	margin-top: 14vh;
+	text-align: center;
+}
+
+.zara h2 {
+	height: 10vh;
+	font-size: 8vw;
+	margin-top: 25vh;
+}
+
+.zara p {
+	height: 5vh;
+	font-size: 7vw;
+	margin-top: 30vh;
+}
+
+
+
+/*FOOTER*/
+footer {
+	background-color: rgba(60, 50, 73, 0.85);
+	position: fixed;
+	height: 16%;
+	width: 100%;
+	bottom:0;
+	z-index: 15;
+}
+
+footer div {
+	display: inline-block;
+	width: 19%;
+	height: 0;
+	margin-top: 2em;
+}
+
+footer div a {
+	color: white;
+	font-size: 2.5em;
+	display: inline-block;
+	text-align: center;
+
+}
+
+@media only screen and (min-width: 650px) {
+	/*HEADER*/
+
+	/*LOGO*/
+	.logo {
+		display: block;
+		width: 100%;
+		height: 40%;
+		text-align: center;
+		margin-top: .5em;
+	}
+
+	/*NAVIGATION BAR*/
+	.NavDropDown {
+		display: inline-block !important;
+		visibility: visible;
+		width: 100%;
+		text-align: center;
+		margin-top: .75em;
+		height: 35%;
+	}
+
+	.NavDropDown li {
+		padding: .5em;
+		background-color: transparent;
+		display: inline;
+	}
+
+	.NavDropDown li a {
+		font-size: 1.5em;
+		display: inline;
+	}
+
+	.top {
+		display: none;
+	}
+
+
+	/*PROJECTS PAGE */
+
+	.first {
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	.first div {
+		width: 48%;
+	}
+
+	.oscarsproj, .zaraproj {
+		margin-top: 0;
+	}
+
+	.second {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.second div {
+		width: 48%;
+	}
+
+	
+	 /*ABOUT ME PAGE */
+	.info {
+		display: flex;
+	}
+
+	.left {
+		flex: 60%;
+		height: 84%;
+	}
+
+	.right {
+		flex: 90%;
+		margin-top: 14vh;
+		height: 86vh;
+	}
+
+	.right p{
+		width: 80%;
+		height: auto;
+	}
+
+	.button {
+		width: 80%;
+	}
+
+	/*Forms page */
+
+	form div {
+		text-align: left;
+	}
+
+	::-webkit-input-placeholder {
+		text-align: left;
+	}
+	
+	::-moz-placeholder {
+	text-align: left;
+	}
+	
+	:-ms-placeholder {
+	text-align: left;
+	}
+
+	/*HBO project page */
+	.icons {
+		display: flex;
+	}
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+	/*HEADER*/
+	
+	/*LOGO*/
+	.logo {
+		display: inline-block;
+		width: 35%;
+		text-align: left;
+		margin-top: 2.5em;
+		height: 50%;
+	}
+
+	/*NAVIGATION BAR*/
+	.NavDropDown {
+		width: 60%;
+		text-align: right;
+	}
+
+	nav ul li {
+	padding: .5em;
+	background-color: transparent;
+	display: inline-block;
+	}
+
+	nav ul li a {
+		font-size: 1.5em;
+	}
+
+	.top {
+		display: none;
+	}
+
+	/*ABOUT ME */
+	 
+
+	.left {
+		height: 72vh;
+		flex: 40%;
+	}
+
+	.right {
+		flex: 80%;
+		margin-top: 14vh;
+		height: 72vh;
+	}
+
+	/*HBO Go project page */
+
+
+	.hbo_interviews img {
+		width: 75%;
+		height: auto;
+	}
+
+	.hbo_interviews div {
+		text-align: center;
+	}
+
+	.personas {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.chad {
+		width: 75%;
+		height: auto;
+	}
+
+	.angelica {
+		width: 75%;
+		height: auto;
+	}
+
+	.joe {
+		width: 75%;
+		height: auto;
+	}
+
+
+}*/
