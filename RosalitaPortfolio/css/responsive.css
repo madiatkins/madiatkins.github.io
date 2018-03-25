@@ -1,14 +1,48 @@
 
-@media only screen and (min-width: 550px){
+@media only screen and (min-width: 746px){
+	
+	.nav-wrapper ul{
+		text-align: center;
+	}
 
+	.nav-wrapper ul li{
+		display:inline-block;
+		font-size: 1.2em;
+		padding: 0 40px 0 40px;
+	}
 
+	.main{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 20px;
+	}
+	
+	.main img, p{
+		padding: 10px;
+		align-self: center;
+	}
+	
+	.main p{
+		font-size: .9em;
+	}
 
+	.foot-wrapper p{
+		font-size: .65em;
+	}
 }
 
 
 
 @media only screen and (min-width: 1000px){
-	
+	header h1, header h2{
+		text-align: left;
+		line-height: .5em;
+	}
+
+	.nav-wrapper ul{
+		text-align: right;
+		line-height: 1em;
+	}
 
 
 

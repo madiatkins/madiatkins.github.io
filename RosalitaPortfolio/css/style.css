@@ -72,7 +72,7 @@ header h1{
 	text-align: center;
 	color: #7F3B41;
 	line-height: 1em;
-	font-size: 1em;
+	/*font-size: 1em;*/
 	font-family: "Railway", sans-serif;
 }
 
@@ -89,7 +89,7 @@ header h2{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
-	font-size: .8em;
+	/*font-size: .8em;*/
 }
 
 .nav-wrapper{
@@ -109,8 +109,8 @@ header h2{
 .nav-wrapper li {
 	/*display: inline;*/
 	list-style-type: none;
-	/*padding: 0 10px 0 10px;*/
-	font-size: .8em;
+	
+	/*font-size: .8em;*/
 }
 
 .nav-wrapper a{
