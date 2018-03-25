@@ -1,22 +1,16 @@
-/*greater than 650px*/
-@media only screen and (min-width: 650px){
-	.top-nav ul li{
-		display:inline-block;
-	}
 
-	.top-nav ul{
-		text-align: center;
-	}
+@media only screen and (min-width: 550px){
 
 
-/*Greater than 1000px*/
+
+}
+
+
 
 @media only screen and (min-width: 1000px){
-	.top-nav ul{
-		text-align: right;
-		padding-top: .5em;
-		margin: 0;
-	}
+	
+
+
 
 }
 

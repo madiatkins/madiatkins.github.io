@@ -6,38 +6,73 @@
 #CC7C84 -- dusty light pink
 */
 
-/*Header/Navigation -- stays the SAME across all pages*/
+/*DESIGN MOBILE FIRST!!!!*/
+/*Base Styles*/
+
+html, body, header, footer{
+	font-family: 'Lato', 'Railway', sans-serif;
+	/*margin:0;
+	padding: 0;*/
+}
+
+/*html, body{
+	height: 100%;
+}*/
+
+/*html{
+	box-sizing: border-box;
+	display: block;
+}*/
 
 body{
 	font-family: "Railway", sans-serif;
 	background-color: #FF9BA5;
+	/*display: flex;
+	flex-direction: column;*/
 }
 
-#header-wrapper {
+
+.wrapper{
+	display: block;
+}
+
+.header-wrapper, .nav-wrapper, .main, .foot-wrapper{
+	display: block;
+	overflow:hidden;
+}
+
+/*Header/Navigation -- stays the SAME across all pages*/
+
+.wrapper {
 	background-color: #7F4E53;
 	color: #DDDDDA;
-	display: flex;
-	flex-direction: column;
-	max-width: 1200px;
-	margin: auto;
-	padding: 1.5em;
-	/*max-width: 960px;
-	margin: 0 auto;
-	background-color: #7F4E53;
-	padding: 32px;*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*width: 80%;
+	height: 50%;*/
+	/*margin: auto;*/
+	/*padding: 1.5em;
+	align-items: center;*/
+	/*flex-flow: row wrap;*/
 }
+
+/*.wrapper > * {
+	flex: 1 100%;
+}*/
 
 header{
 	background-color: #CC7C84;
-	height: 150px;
-	padding: 4px;
+	/*height: 50%;
+	width: 100%;*/
+	/*padding: 4px;*/
 }
 
 header h1{
 	text-transform: uppercase;
 	text-align: center;
 	color: #7F3B41;
-	line-height: 50px;
+	line-height: 1em;
+	font-size: 1em;
 	font-family: "Railway", sans-serif;
 }
 
@@ -54,57 +89,76 @@ header h2{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
+	font-size: .8em;
 }
 
-.main-menu{
-	padding: 5px 0 5px 0;
+.nav-wrapper{
+	/*padding: 5px 0 5px 0;*/
 	text-align: center;
-	line-height: 32px;
+	line-height: 2em;
 	background-color: #CC7C84;
+	/*width: 100%;*/
+	/*display: flex;
+	flex-direction: column;*/
 }
 
-ul.main-menu{
-	margin-top: 15px;
-
+.nav-wrapper ul{
+	padding: 0 2.5em 0 2.5em;
 }
 
-.main-menu li {
-	display: inline;
-	padding: 0 10px 0 10px;
-	font-size: 16px;
+.nav-wrapper li {
+	/*display: inline;*/
+	list-style-type: none;
+	/*padding: 0 10px 0 10px;*/
+	font-size: .8em;
 }
 
-.main-menu a{
+.nav-wrapper a{
 	text-decoration: none;
 	color: #7F3B41;
-	padding: 8px;
+	/*padding: 8px;*/
 	font-variant: small-caps;
 	font-family: "Lato" bold;
 }
 
-/*Content -- names needs to be added to this section with each page*/
+/*NOTE: jquery -- on.("hover", function() {
+	font-weight: 900;}*/
 
-/*HOMEPAGE*/
-#home-content {
-	background-color: #7F4E53;
-	display: flex;
-	flex-direction: row;
-	max-width: 1200px;
-	margin: auto;
-	padding: 1.5em;
-	align-items: center;
+#current-page{
+	font-weight: bold;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
 }
 
-#home-content p{
-	/*display: inline-block;*/
-	/*max-width: 300px;*/
-	padding: 32px;
-	/*font-variant: small-caps;*/
+/*Content*/
+
+/*HOMEPAGE*/
+.main {
+	background-color: #7F4E53;
+	text-align: center;
+	/*display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 100%;*/
+	/*margin: auto;
+	padding: 1.5em;*/
+	/*align-items: center;
+	align-content: center;*/
+}
+
+.main p{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
-	font-size: 1.5em;
+	font-size: .85em;
+	padding: .5em;
+	/*margin: auto;*/
 }
+
+.main img{
+	width: 100%;
+}
+
 
 /*ABOUT PAGE*/
 
@@ -122,22 +176,15 @@ ul.main-menu{
 
 
 /*Footer*/
-.footer{
+.foot-wrapper{
 	background-color: #7F4E53;
-	display: flex;
-	flex-direction: row;
-	max-width: 1200px;
-	margin: auto;
-	padding: 1.5em;
-	align-items: flex-end;
-}
-
-
-.footer p{
 	color: pink;
-	font-size: 1em;
+	padding: .5em;
 }
 
+.foot-wrapper p{
+	text-align: right;
+}
 
 
 
