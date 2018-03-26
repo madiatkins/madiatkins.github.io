@@ -11,29 +11,19 @@
 
 html, body, header, footer{
 	font-family: 'Lato', 'Railway', sans-serif;
-	/*margin:0;
-	padding: 0;*/
 }
 
-/*html, body{
-	height: 100%;
-}*/
-
-/*html{
-	box-sizing: border-box;
-	display: block;
-}*/
 
 body{
 	font-family: "Railway", sans-serif;
 	background-color: #FF9BA5;
-	/*display: flex;
-	flex-direction: column;*/
 }
 
 
 .wrapper{
 	display: block;
+	background-color: #7F4E53;
+	color: #DDDDDA;
 }
 
 .header-wrapper, .nav-wrapper, .main, .foot-wrapper{
@@ -43,28 +33,8 @@ body{
 
 /*Header/Navigation -- stays the SAME across all pages*/
 
-.wrapper {
-	background-color: #7F4E53;
-	color: #DDDDDA;
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*width: 80%;
-	height: 50%;*/
-	/*margin: auto;*/
-	/*padding: 1.5em;
-	align-items: center;*/
-	/*flex-flow: row wrap;*/
-}
-
-/*.wrapper > * {
-	flex: 1 100%;
-}*/
-
 header{
 	background-color: #CC7C84;
-	/*height: 50%;
-	width: 100%;*/
-	/*padding: 4px;*/
 }
 
 header h1{
@@ -72,7 +42,6 @@ header h1{
 	text-align: center;
 	color: #7F3B41;
 	line-height: 1em;
-	/*font-size: 1em;*/
 	font-family: "Railway", sans-serif;
 }
 
@@ -89,17 +58,13 @@ header h2{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
-	/*font-size: .8em;*/
 }
 
 .nav-wrapper{
-	/*padding: 5px 0 5px 0;*/
 	text-align: center;
 	line-height: 2em;
 	background-color: #CC7C84;
-	/*width: 100%;*/
-	/*display: flex;
-	flex-direction: column;*/
+	border-top: 3px solid #FF9BA5;
 }
 
 .nav-wrapper ul{
@@ -107,10 +72,7 @@ header h2{
 }
 
 .nav-wrapper li {
-	/*display: inline;*/
 	list-style-type: none;
-	
-	/*font-size: .8em;*/
 }
 
 .nav-wrapper a{
@@ -133,36 +95,56 @@ header h2{
 /*Content*/
 
 /*HOMEPAGE*/
-.main {
+.main-home {
 	background-color: #7F4E53;
 	text-align: center;
-	/*display: flex;
-	flex-direction: row;
-	width: 80%;
-	height: 100%;*/
-	/*margin: auto;
-	padding: 1.5em;*/
-	/*align-items: center;
-	align-content: center;*/
+	border-top: 3px solid #FF9BA5;
 }
 
-.main p{
+.main-home p{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
 	font-size: .85em;
 	padding: .5em;
-	/*margin: auto;*/
 }
 
-.main img{
+.main-home img{
 	width: 100%;
 }
 
 
 /*ABOUT PAGE*/
 
+.main-about {
+	background-color: #7F4E53;
+	text-align: center;
+	border-top: 3px solid #FF9BA5;
+}
 
+.main-about p{
+	text-align: center;
+	color: pink;
+	font-family: "Railway", sans-serif;
+	font-size: .85em;
+	padding: .5em;
+}
+
+.main-about ul{
+	list-style-type: square;
+	text-align: left;
+}
+
+.main-about li{
+	color: pink;
+	font-size: .85em;
+	padding: .5em;
+	font-family: "Railway", sans-serif;
+}
+
+.main-about img{
+	width: 100%;
+}
 
 
 /*PROJECTS PAGE*/
@@ -180,11 +162,32 @@ header h2{
 	background-color: #7F4E53;
 	color: pink;
 	padding: .5em;
+	border-top: 3px solid #FF9BA5; 
 }
 
 .foot-wrapper p{
 	text-align: right;
+	font-size: .75em;
 }
+
+
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track { 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #7F3B41;
+    
+}
+
 
 
 

@@ -11,18 +11,18 @@
 		padding: 0 40px 0 40px;
 	}
 
-	.main{
+	.main-home{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 20px;
 	}
 	
-	.main img, p{
+	.main-home img, p{
 		padding: 10px;
 		align-self: center;
 	}
 	
-	.main p{
+	.main-home p{
 		font-size: .9em;
 	}
 
