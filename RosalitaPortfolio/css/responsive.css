@@ -29,42 +29,55 @@
 
 	/*about page*/
 	
+	/*.photos{
+		display: grid;
+
+	}*/
+
+
 
 	.main-about{
 		display: grid;
+		grid-template-columns: auto auto auto auto;
 		grid-template-rows: auto auto auto auto;
 		grid-column-gap: 20px;
-		/*grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 20px;*/
 	}
 
 	.window{
 		grid-column: 1/span 1;
+		grid-row: 1/span 1;
 			
 	}
-	.pretty{grid-column: 2/span 1;}
-	.bug{
-		grid-row: 2/span 1;
+
+	.pretty{
 		grid-column: 1/span 1;
+		grid-row: 2/span 1;
+	}
+
+	.bug{
+		
+		grid-column: 1/span 1;
+		grid-row: 3/span 1;
 	}
 	.xmas{
-		grid-row: 2/span 1;
-		grid-column: 2/span 1;
+	
+		grid-column: 1/span 1;
+		grid-row: 4/span 1;
 	}
 
 	.p1{
-		grid-column: 3/span 2;
+		grid-column: 2/span 3;
 		grid-row: 1/span 1;
 	}
 
-	.ul{
-		grid-column: 3/span 2;
-		grid-row: 2/span 1;
+	.ul1{
+		grid-column: 2/span 3;
+		grid-row: 2/span 2;
 	}
 
 	.p2{
-		grid-column: 1/span 2;
-		grid-row: 3/span 1;
+		grid-column: 2/span 3;
+		grid-row: 4/span 1;
 	}
 	
 	.main-about img{
