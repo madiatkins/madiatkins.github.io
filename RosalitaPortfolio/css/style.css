@@ -144,6 +144,7 @@ header h2{
 
 .main-about img{
 	width: 100%;
+	padding-top: 10px;
 }
 
 
@@ -172,7 +173,7 @@ header h2{
 
 
 
-/*scrollbar*/
+/*custom scrollbar*/
 
 ::-webkit-scrollbar {
     width: 6px;

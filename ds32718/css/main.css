@@ -1,0 +1,29 @@
+body{
+	font-family: sans-serif;
+
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	min-width: 90px;
+	display: inline-block;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+
+/*sub-menu style*/
+nav ul li ul{
+	display: none;
+}
+
+nav ul li a{
+	color: red;
+}
