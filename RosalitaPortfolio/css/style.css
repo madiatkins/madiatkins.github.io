@@ -148,9 +148,26 @@ header h2{
 }
 
 
-/*PROJECTS PAGE*/
+/*Memories PAGE*/
 
+.main-memories {
+	background-color: #7F4E53;
+	text-align: center;
+	border-top: 3px solid #FF9BA5;
+}
 
+.main-memories p{
+	text-align: center;
+	color: pink;
+	font-family: "Railway", sans-serif;
+	font-size: .85em;
+	padding: .5em;
+}
+
+.main-memories img{
+	width: 100%;
+	padding-top: 10px;
+}
 
 
 /*CONTACT PAGE*/
