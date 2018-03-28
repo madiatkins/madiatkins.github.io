@@ -160,8 +160,18 @@ header h2{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
-	font-size: .85em;
+	font-size: 1em;
 	padding: .5em;
+}
+
+.sub {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.psst{
+	font-style: italic;
+	font-variant: small-caps;
 }
 
 .main-memories img{
@@ -170,7 +180,10 @@ header h2{
 }
 
 
+
+
 /*CONTACT PAGE*/
+
 
 
 
