@@ -167,6 +167,7 @@ header h2{
 .sub {
 	font-weight: bold;
 	text-decoration: underline;
+	font-size: 1.5em;
 }
 
 .psst{
@@ -175,8 +176,8 @@ header h2{
 }
 
 .main-memories img{
-	width: 100%;
 	padding-top: 10px;
+	width: 100%;
 }
 
 

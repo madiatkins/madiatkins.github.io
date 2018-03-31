@@ -93,10 +93,11 @@
 	
 	.main-memories{
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 1fr 1fr;
 		/*grid-template-rows: auto auto auto auto auto auto;*/
 		grid-column-gap: 30px;
 		grid-row-gap: 20px;
+		padding: 10px;
 	}
 	
 
@@ -104,11 +105,7 @@
 		grid-column: 1/span 2;
 	}
 
-	.main-memories img{
-		width: 100%;
-		padding:0;
-		
-	}
+
 
 
 	/*footer*/
@@ -191,6 +188,32 @@
 	.ul1 li{
 		font-size: 1em;
 	}
+
+	/*memeories page*/
+
+	.main-memories{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 20px;
+	}
+	
+	.sub, .psst{
+		grid-column: 1/span 3;
+	}
+
+	.sub{
+		font-size: 1.5em;
+	}
+
+	.xmas{
+		grid-column: 1/span 1;
+	}
+	
+	.checkback{
+		grid-column: 1/span 3;
+	}
+
+
 }
 
 
