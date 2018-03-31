@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
 
-	<meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Say Hi to Rosalita!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Rosalita's Portfolio: Contact</title>
   <!-- favicon -->
-  	<link rel="favicon" href="imgs/tinybed.jpg"/>
+  <link rel="icon" href="imgs/tinybed.jpg"/>
   <!-- CSS styles sheets -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
- 	 <link rel="stylesheet" type="text/css" href="css/responsive.css">
-  	<link rel="stylesheet" type="text/css" href="css/default.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+ <!--  <link rel="stylesheet" type="text/css" href="css/default.css"> -->
   <!-- Font Awesome CDN -->
-  	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-  	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <!-- Google Fonts -->
-  	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
 
 
 </head>
@@ -23,38 +22,54 @@
 
 <body>
   <!-- Header -->
-	<div id="header">
-  		<header>
-    		<h1>Say Hi to Rosalita!</h1>
-   		</header>
-	</div>
+  <div class="wrapper">   
+    <header class="header-wrapper">
+      <h1>
+        <a href="contact.html">Contact</a>
+      </h1>
+      <h2>Rosalita "Gato" Atkins</h2>
+    </header>
+    
 
-  <!-- Navigation Bar -->
-	<div id="navigation">
-	    <nav>
-	    	<ul>
-		        <li><a href="index.html">Home</a></li>
-		        <li><a href="about.html">About</a></li>
-		        <li><a href="projects.html">Achievements</a></li>
-		        <li><a class="current-page" href="contact.html">Contact</a></li>
-	      	</ul>
-	   </nav>
-  	</div>
-
-  <!-- Main Content of Homepage -->
-  	<div id="contact-content">
-        
-  	</div>
+  <!-- navigation -->
+    <nav class="nav-wrapper">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="memories.html">Memories</a></li>
+        <li><a id="current-page" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   
-  <!-- Footer -->
-  	<div id="footer">
-    	<footer>
-      		<p>Mom of Rosalita, Madi Atkins &copy; 2018</p>
-   		</footer>
-  	</div>
 
+    <!-- Main Content of Memories Page -->
+    <article class="main-contact">
+      <h2 id="title"> Send Rosie a Message!</h2>
+      <form name="main" action='https://www.getform.org/f/dea8d028-142b-4a20-8e7c-4efe3a1cd803' method="post">
+  
+      <fieldset>
+        <label> First name:<input type="text" name="fname" autofocus="">
+        </label><br><br>
+
+        <label for="lname"> Last name:</label><input type="text" name="lname"><br><br>
+
+        <label> Email: <input type="email" name="email" placeholder="mcard@umich.edu"></label><br><br>
+
+        <label>Message: <input type="text" name="message"></label>
+
+      </fieldset><br>
+      <input type="submit" value="Send">
+      </form>
+    </article>
+    
+    <!-- footer -->
+    <footer class="foot-wrapper">
+        <p>Mom of Rosalita, Madi Atkins &copy; 2018</p>
+    </footer>
+    
+  </div>
     <!-- jQuery CDN and JS Stylesheet -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script> -->
 </body>
 </html>
