@@ -29,7 +29,6 @@
 
 	/*about page*/
 
-
 	.main-about{
 		display: grid;
 		grid-template-columns: auto auto auto auto;
@@ -88,6 +87,27 @@
 	.main-about p{
 		font-size: 1em;
 		text-align: left;
+	}
+
+	/*memories page*/
+	
+	.main-memories{
+		display: grid;
+		grid-template-columns: auto auto;
+		/*grid-template-rows: auto auto auto auto auto auto;*/
+		grid-column-gap: 30px;
+		grid-row-gap: 20px;
+	}
+	
+
+	.checkback{
+		grid-column: 1/span 2;
+	}
+
+	.main-memories img{
+		width: 100%;
+		padding:0;
+		
 	}
 
 
