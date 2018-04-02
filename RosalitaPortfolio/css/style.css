@@ -124,6 +124,7 @@ header h2{
 .main-about {
 	background-color: #7F4E53;
 	text-align: center;
+	font-size: 1em;
 	border-top: 3px solid #FF9BA5;
 }
 
@@ -131,7 +132,7 @@ header h2{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
-	font-size: .85em;
+	
 	padding: .5em;
 }
 
@@ -142,7 +143,6 @@ header h2{
 
 .main-about li{
 	color: pink;
-	font-size: .85em;
 	padding: .5em;
 	font-family: "Railway", sans-serif;
 }
