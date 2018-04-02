@@ -11,6 +11,7 @@
 
 html, body, header, footer{
 	font-family: 'Lato', 'Railway', sans-serif;
+
 }
 
 
@@ -184,6 +185,7 @@ header h2{
 
 /*CONTACT PAGE*/
 
+
 input[type = "text"]{
 	display: inline-block;
 	position: absolute;
@@ -206,7 +208,8 @@ input[type = "submit"]{
 	background-color: #7F4E53;
 	color: pink;
 	padding: .5em;
-	border-top: 3px solid #FF9BA5; 
+	border-top: 3px solid #FF9BA5;
+	
 }
 
 .foot-wrapper p{
