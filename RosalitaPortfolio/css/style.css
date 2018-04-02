@@ -59,7 +59,7 @@ header h1 a:visited{
 header h2{
 	font-variant: small-caps;
 	text-align: center;
-	color: #7F4249;
+	color: #4F292D;
 	font-family: "Railway", sans-serif;
 }
 
@@ -84,6 +84,7 @@ header h2{
 	/*padding: 8px;*/
 	font-variant: small-caps;
 	font-family: "Lato" bold;
+	font-size: 1.1em;
 }
 
 /*NOTE: jquery -- on.("hover", function() {
@@ -102,13 +103,13 @@ header h2{
 	background-color: #7F4E53;
 	text-align: center;
 	border-top: 3px solid #FF9BA5;
+	font-size: 1.75em;
 }
 
 .main-home p{
 	text-align: center;
 	color: pink;
 	font-family: "Railway", sans-serif;
-	font-size: .85em;
 	padding: .5em;
 }
 
