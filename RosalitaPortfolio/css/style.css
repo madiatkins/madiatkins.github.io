@@ -1,9 +1,11 @@
 /*HEX color harmony of site
-#7F4E53 -- dusty rose
+#7F4E53 -- dusty rose (wrapper, h1)
 #FF485A -- bright salmon pink -- not really good color
-#FF9BA5 -- light pastel pink
+#FF9BA5 -- light pastel pink (body)
 #7F3B41 -- dark rose
-#CC7C84 -- dusty light pink
+#CC7C84 -- dusty light pink (header, nav-wrapper)
+
+pink -- (h2, )
 */
 
 /*DESIGN MOBILE FIRST!!!!*/
@@ -57,7 +59,7 @@ header h1 a:visited{
 header h2{
 	font-variant: small-caps;
 	text-align: center;
-	color: pink;
+	color: #7F4249;
 	font-family: "Railway", sans-serif;
 }
 
