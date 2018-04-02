@@ -1,11 +1,11 @@
 /*HEX color harmony of site
 #7F4E53 -- dusty rose (wrapper, h1)
-#FF485A -- bright salmon pink -- not really good color
-#FF9BA5 -- light pastel pink (body)
+#FF485A -- bright salmon #ffe2e7 -- not really good color
+#FF9BA5 -- light pastel #ffe2e7 (body)
 #7F3B41 -- dark rose
-#CC7C84 -- dusty light pink (header, nav-wrapper)
+#CC7C84 -- dusty light #ffe2e7 (header, nav-wrapper)
 
-pink -- (h2, )
+#ffe2e7 -- (h2, )
 */
 
 /*DESIGN MOBILE FIRST!!!!*/
@@ -65,7 +65,7 @@ header h2{
 
 .nav-wrapper{
 	text-align: center;
-	line-height: 2em;
+	line-height: 2.5em;
 	background-color: #CC7C84;
 	border-top: 3px solid #FF9BA5;
 }
@@ -109,7 +109,7 @@ header h2{
 
 .main-home p{
 	text-align: center;
-	color: pink;
+	color: #ffe2e7;
 	font-family: "Railway", sans-serif;
 	padding: .5em;
 }
@@ -130,7 +130,7 @@ header h2{
 
 .main-about p{
 	text-align: center;
-	color: pink;
+	color: #ffe2e7;
 	font-family: "Railway", sans-serif;
 	
 	padding: .5em;
@@ -142,7 +142,7 @@ header h2{
 }
 
 .main-about li{
-	color: pink;
+	color: #ffe2e7;
 	padding: .5em;
 	font-family: "Railway", sans-serif;
 }
@@ -163,7 +163,7 @@ header h2{
 
 .main-memories p{
 	text-align: center;
-	color: pink;
+	color: #ffe2e7;
 	font-family: "Railway", sans-serif;
 	font-size: 1em;
 	padding: .5em;
@@ -192,6 +192,7 @@ header h2{
 fieldset{
 	background-image: url("../imgs/catbackground.jpg");
 	text-shadow:-1.5px -.5px black;
+
 }
 
 input[type = "text"]{
@@ -214,7 +215,7 @@ input[type = "submit"]{
 /*Footer*/
 .foot-wrapper{
 	background-color: #7F4E53;
-	color: pink;
+	color: #ffe2e7;
 	padding: .5em;
 	border-top: 3px solid #FF9BA5;
 
