@@ -185,6 +185,10 @@ header h2{
 
 /*CONTACT PAGE*/
 
+fieldset{
+	background-image: url("../imgs/catbackground.jpg");
+	text-shadow:-1.5px -.5px black;
+}
 
 input[type = "text"]{
 	display: inline-block;
@@ -209,7 +213,7 @@ input[type = "submit"]{
 	color: pink;
 	padding: .5em;
 	border-top: 3px solid #FF9BA5;
-	
+
 }
 
 .foot-wrapper p{
