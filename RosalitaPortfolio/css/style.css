@@ -87,14 +87,21 @@ header h2{
 	font-size: 1.1em;
 }
 
-/*NOTE: jquery -- on.("hover", function() {
-	font-weight: 900;}*/
+.nav-wrapper a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
 
 #current-page{
 	font-weight: bold;
 	text-decoration-line: underline;
 	text-decoration-style: wavy;
 	color: #432326;
+}
+
+#current-page:hover{
+	font-weight: 900;
+
 }
 
 /*Content*/
