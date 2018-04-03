@@ -36,26 +36,21 @@
 		grid-column-gap: 40px;
 	}
 
-	#window{
+	.window{
 		grid-column: 1/span 1;
 		grid-row: 1/span 1;
 			
 	}
 
-	#pretty{
+	.pretty{
 		grid-column: 1/span 1;
 		grid-row: 2/span 1;
 	}
 
-	#bug{
+	.bug{
 		
 		grid-column: 1/span 1;
 		grid-row: 3/span 1;
-	}
-	#xmas{
-	
-		grid-column: 1/span 1;
-		grid-row: 4/span 1;
 	}
 
 	.p1{
@@ -139,26 +134,21 @@
 		grid-column-gap: 40px;
 	}
 
-	#window{
+	.window{
 		grid-column: 1/span 2;
 		grid-row: 1/span 1;
 			
 	}
 
-	#pretty{
+	.pretty{
 		grid-column: 1/span 2;
 		grid-row: 2/span 1;
 	}
 
-	#bug{
+	.bug{
 		
 		grid-column: 1/span 2;
 		grid-row: 3/span 1;
-	}
-	#xmas{
-	
-		grid-column: 1/span 2;
-		grid-row: 4/span 1;
 	}
 
 	.p1{
