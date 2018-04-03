@@ -199,6 +199,7 @@ header h2{
 fieldset{
 	background-image: url("../imgs/catbackground.jpg");
 	text-shadow:-1.5px -.5px black;
+	padding: 40px 0 40px 20px;
 
 }
 
