@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $('.button2').click(function(){
   	$('.img1').show();
-  	$('.wrapper').css('grid-template-columns', 'auto auto')
+  	$('.wrapper').css('grid-template-columns', 'repeat(2, 1fr)')
   	$('.img2').css({'grid-column' : '2/span 1'});
   })
 }); 
